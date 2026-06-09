@@ -64,23 +64,20 @@ export default function Login() {
             }}>
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
-          <div style={{ textAlign:'center', fontSize:11, color:'#aaa' }}>
-            Access is invite-only. Contact your AIM administrator.
-            <div style={{ textAlign:'center', marginTop:12 }}>
-  <a
-    href="/forgot-password">
-    style={{
-      color:'#EB5D26',
-      textDecoration:'none',
-      fontSize:'13px',
-      fontWeight:'600'
-    }}
-  >
-    Forgot Password?
-  </a>
+<div style={{ textAlign:'center', fontSize:11, color:'#aaa' }}>
+  Access is invite-only. Contact your AIM administrator.
+
+  <div style={{ textAlign:'center', marginTop:12 }}>
+    <a
+      href="/forgot-password"
+      style={{
+        color:'#E85D26',
+        textDecoration:'none',
+        fontSize:'13px',
+        fontWeight:'600'
+      }}
+    >
+      Forgot Password?
+    </a>
+  </div>
 </div>
-        </form>
-      </div>
-    </div>
-  )
-}
