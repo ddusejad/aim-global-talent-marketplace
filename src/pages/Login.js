@@ -64,7 +64,7 @@ export default function Login() {
             }}>
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
-          <p style={{ textAlign:'center', fontSize:11, color:'#aaa', marginTop:16, marginBottom:0 }}>
+          <div style={{ textAlign:'center', fontSize:11, color:'#aaa' }}>
             Access is invite-only. Contact your AIM administrator.
             <div style={{ textAlign:'center', marginTop:12 }}>
   <a
