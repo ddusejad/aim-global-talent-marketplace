@@ -66,6 +66,19 @@ export default function Login() {
           </button>
           <p style={{ textAlign:'center', fontSize:11, color:'#aaa', marginTop:16, marginBottom:0 }}>
             Access is invite-only. Contact your AIM administrator.
+            <div style={{ textAlign:'center', marginTop:12 }}>
+  <a
+    href="/reset-password"
+    style={{
+      color:'#EB5D26',
+      textDecoration:'none',
+      fontSize:'13px',
+      fontWeight:'600'
+    }}
+  >
+    Forgot Password?
+  </a>
+</div>
           </p>
         </form>
       </div>
