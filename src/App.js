@@ -11,6 +11,7 @@ import Shortlists from './pages/Shortlists'
 import Users from './pages/Users'
 import Settings from './pages/Settings'
 import { EmployerBrowse, EmployerShortlist, EmployerDemands } from './pages/EmployerPortal'
+import ResetPassword from './pages/ResetPassword'
 
 function Layout({ children }) {
   return (
@@ -46,6 +47,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path="/login" element={user ? <Navigate to="/dashboard" /> : <Login />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
 
       {/* Admin/Staff routes */}
       <Route path="/dashboard" element={<ProtectedRoute><Layout><Dashboard /></Layout></ProtectedRoute>} />
