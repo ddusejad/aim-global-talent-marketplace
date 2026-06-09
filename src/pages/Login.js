@@ -68,7 +68,7 @@ export default function Login() {
             Access is invite-only. Contact your AIM administrator.
             <div style={{ textAlign:'center', marginTop:12 }}>
   <a
-    href="/reset-password"
+    href="/forgot-password">
     style={{
       color:'#EB5D26',
       textDecoration:'none',
