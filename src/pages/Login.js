@@ -79,7 +79,6 @@ export default function Login() {
     Forgot Password?
   </a>
 </div>
-          </p>
         </form>
       </div>
     </div>
